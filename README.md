@@ -17,10 +17,10 @@ The description of this service
 ```
 
 ## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+View this jekyll theme in action [here](https://trystant.github.io)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+![screenshot](http://grandkru.com/images/trystant_screenshot.png)
 
 ===
 
@@ -32,4 +32,4 @@ The contents of this repository are licensed under the [Apache
 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Version
-1.0.1
+1.0.2
