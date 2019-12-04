@@ -1,29 +1,21 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://trystant.github.io
+# Site settings
 title: Mark Nyon
-email: mark@grandkru.com
-author: Mark Nyon
-description: > # "Basic landing page for GitHub repositories & resources."
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://trystant.github.co" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+# User settings
+username: Mark Nyon
+user_description: I'm a Software Engineer and Educator. Lately I have been immersed in <b>education</b> working for 2U. I work on Education based applications. Visit my blog <a href="https://blog.grandkru.com" target="_blank">here</a>.
+user_title: Software Engineer
+email: nyonmark@gmail.com
+twitter_username: scorintha
+github_username:  trystant
+linkedin_username: marknyon
+# gplus_username:  lorem_ipsum
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Google-analytics
+google-analytics:
+  id: ""
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: twitter
-    url: https://twitter.com/scorintha
-  - title: github
-    url: https://github.com/trystant
-  - title: linkedin
-    url: https://www.linkedin.com/in/marknyon
+exclude: ['package.json', 'src' , 'node_modules']

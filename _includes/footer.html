@@ -1,30 +1,8 @@
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <ul class="list-inline">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small">Copyright &copy; {{ site.title }} All Rights Reserved</p>
-            </div>
-            <div class="col-md-4">
-                Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.
-            </div>
-        </div>
-    </div>
+<footer class="footer">
+    <!-- <p>&copy; {{ site.username }}</p> -->
+    <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/murraco">Mauricio Urraco</a></p>
 </footer>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="{{ '/assets/js/sweet-scroll.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+{% include google-analytics.html %}
